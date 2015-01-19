@@ -8,7 +8,8 @@ tm.main(function() {
         height: 600,
         assets: {
             mainFont: "fonts/Indie_Flower/IndieFlower.ttf",
-            subFont: "fonts/Lobster/Lobster-Regular.ttf",
+            subFont:  "fonts/Lobster/Lobster-Regular.ttf",
+			testFont: "fonts/07YasashisaAntique.ttf",
         },
         nextScene: MainScene,
     });
@@ -34,8 +35,8 @@ tm.define("MainScene", {
                 },
                 subLabel: {
                     type: "tm.display.Label",
-                    init: ["This is SUB label", 80],
-                    fontFamily: "subFont",
+                    init: ["This is Test label", 80],
+                    fontFamily: "testFont",
                     x: 450,
                     y: 400,
                 },
