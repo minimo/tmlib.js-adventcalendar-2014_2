@@ -28,17 +28,24 @@ tm.define("MainScene", {
             children: {
                 mainLabel: {
                     type: "tm.display.Label",
-                    init: ["This is MAIN label", 100],
+                    init: ["This is MAIN label", 90],
                     fontFamily: "mainFont",
                     x: 450,
                     y: 200,
                 },
                 subLabel: {
                     type: "tm.display.Label",
-                    init: ["This is Test label", 80],
+                    init: ["This is SUB label", 70],
+                    fontFamily: "subFont",
+                    x: 450,
+                    y: 350,
+                },
+                testLabel: {
+                    type: "tm.display.Label",
+                    init: ["This is TEST label", 70],
                     fontFamily: "testFont",
                     x: 450,
-                    y: 400,
+                    y: 500,
                 },
             },
         });
