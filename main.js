@@ -9,7 +9,7 @@ tm.main(function() {
         assets: {
             mainFont: "fonts/Indie_Flower/IndieFlower.ttf",
             subFont:  "fonts/Lobster/Lobster-Regular.ttf",
-			testFont: "fonts/07YasashisaAntique.ttf",
+			testFont: "fonts/scoreboard.ttf",
         },
         nextScene: MainScene,
     });
